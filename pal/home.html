@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anak Genshin</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <section>   
+        <div class="bulat"></div>
+        <header>
+            <a href="#"><img src="I tried to remove the text from the official icon, if mods want to use it for the subreddit (or for anyone to use!).jpeg" class="logo" ></a>
+            <ul>
+                <li><a href="home">Home</li></a>
+                <li><a href="about">Award</li></a>
+                <li><a href="galeri">Galeri</li></a>
+                <li><a href="Contact">Contact</li></a>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>My Waifu's<br>In Ma <span>Heart</span></h2>
+                <p> Waifu Adalah sebuah karakter fiksi perempuan yang memiliki hubungan khusus atau basis penggemar.<br> Karakter-karakter tersebut sering kali merupakan bagian<span>dari anime, manga atau permainan video Jepang</span></p>
+        </div>
+        <div class="ImgBox">
+            <img src="_-removebg-preview.png" class="hutao">
+            <ul class="thumb">
+            <li><img src="_-removebg-preview.png" onclick="imgSlider('_-removebg-preview.png');changeCircleColor('#4E2F34')"></li>
+            <li><img src="yae_miko__-removebg-preview.png" onclick="imgSlider('yae_miko__-removebg-preview.png');changeCircleColor('#a98d9d')"></li>
+            <li><img src="ei_raiden_shogun____2_-removebg-preview.png" onclick="imgSlider('ei_raiden_shogun____2_-removebg-preview.png');changeCircleColor('#7c5173')"></li>
+        </ul> 
+        </div>                           
+    </section>
+                    <ul class="sci">
+            <li><a href="https://www.instagram.com/n0v4lll/?hl=id"><img src="instagram.png"></a></li>
+            
+            <script type="text/javascript">
+                function imgSlider(anything){
+                    document.querySelector('.hutao').src = anything
+                }
+
+                function changeCircleColor(color){
+                    const bulat = document.querySelector('.bulat');
+                    bulat.style.background = color;
+                }
+            </script>
+</body>
+</html>
